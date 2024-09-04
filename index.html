@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan Nagineni</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Separate div for headshot image -->
+            <div class="headshot-container">
+                <img src="assets/images/headshot.png" alt="Rohan Nagineni" class="headshot">
+            </div>
+
+            <!-- Div for all the text information -->
+            <div class="info">
+                <h1>Rohan Nagineni</h1>
+                <p>469-500-9566 | rohannagineni@utexas.edu | Dallas, TX</p>
+                <p><a href="linkedin.com">LinkedIn</a></p>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a Computer Science major at The University of Texas at Austin with a passion for software engineering. Through personal projects and internships, I've gained hands-on experience in web development, machine learning, and data analysis. I’ve worked on building real-time command interfaces for rocket missions and mobile health apps, and developed platforms for movie reviews with AI insights and credit card fraud detectio using various machine learning and deep learning models. I'm always super excited to contribute to innovative solutions and collaborate on impactful projects.</p>
+        </div>
+    </section>
+
+    <section class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="edu-row">
+                <p>
+                    <strong>The University of Texas at Austin</strong><br>
+                    Bachelor of Science, Computer Science (May 2026)<br>
+                </p>
+                <img src="assets/images/ut_logo.png" alt="UT Logo" class="ut-logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="experience">
+        <div class="container">
+            <h2>Experience</h2>
+
+            <h3>Texas Rocket Engineering Lab (TREL), Austin, TX</h3>
+            <p><em>Avionics Software</em></p>
+            <p>September 2023 - May 2024</p>
+            <ul class="indented">
+                <li>Collaborated in utilizing NASA's OpenMCT framework to visualize data from TREL’s Halcyon Rocket.</li>
+                <li>Enhanced data transfer speeds by ~25% with Flask-SocketIO for real-time bidirectional communication.</li>
+                <li>Developed a Vue.js-based frontend interface for real-time command operations to send to the Halcyon Rocket.</li>
+                <li>Managed and optimized a locally hosted MongoDB database to support communication from Mission Control.</li>
+                <li>Developed and integrated custom plugins into Open MCT framework for added functionality and cleaner UI.</li>
+                <li>Conducted routine testing of Mission Control System code, sharing findings with team members.</li>
+            </ul>
+
+            <h3>iMedrix, Milpitas, CA</h3>
+            <p><em>Software Engineering Intern</em></p>
+            <p>June 2023 - August 2023</p>
+            <ul class="indented">
+                <li>Contributed to the development of a mobile application that interfaces with the company's handheld electrocardiogram device, enhancing patient monitoring capabilities and heart abnormality detection.</li>
+                <li>Authored test cases using the Java JUnit testing framework to validate the app's functionality and reliability.</li>
+                <li>Reduced potential vulnerabilities by 20% through comprehensive testing and quality assurance processes.</li>
+                <li>Played a key role in bug identification/resolution, streamlining the software to ensure seamless user experience.</li>
+                <li>Maintained detailed logs of device calibration and testing activities to comply with FDA regulatory requirements.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <h3>Movie Review Website</h3>
+            <p>React.js | Java | Spring Boot | MongoDB | IntelliJ | VSCode</p>
+            <ul class="indented">
+                <li>Developed a React and Spring Boot web platform for users to explore upcoming movies and manage watchlists.</li>
+                <li>Enhanced UX by utilizing Bootstrap for a responsive carousel UI displaying movie trailers, posters, and backdrops.</li>
+                <li>Implemented features for user-generated content, including reviews and watchlists, stored using MongoDB Atlas.</li>
+                <li>Developed REST API with Spring Boot for robust UI-data interactions, improving data retrieval efficiency by 20%.</li>
+                <li>Integrated neural network from Movie Data Analysis project, enriching user experience with data-driven insights.</li>
+            </ul>
+
+            <h3>Movie Data Analysis and Sentiment Prediction</h3>
+            <p>Python | Tensorflow | Scikit-learn | VSCode</p>
+            <ul class="indented">
+                <li>Developed a Python script to scrape and analyze over 1 million movie data points from the TMDB API.</li>
+                <li>Implemented sentiment analysis using the VADER library on movie reviews to quantify sentiment scores.</li>
+                <li>Engineered features and normalized data, including budget, and popularity metrics to enhance model accuracy.</li>
+                <li>Created and optimized neural network hyperparameters using Keras and Grid Search, achieving an 8% boost in accuracy with a final test accuracy of 79%.</li>
+            </ul>
+
+            <h3>Credit Card Fraud Detection</h3>
+            <p>Python | Tensorflow | Scikit-learn | Jupyter Notebook</p>
+            <ul class="indented">
+                <li>Engineered, balanced, and normalized features in a dataset of 280,000+ credit card transactions.</li>
+                <li>Partitioned data into training, validation, and testing sets to strategically evaluate model performance metrics.</li>
+                <li>Developed and tested multiple machine learning models including logistic regression, decision trees, and GBCs.</li>
+                <li>Utilized Tensorflow to create deep learning models like neural networks for more effective fraud detection.</li>
+                <li>Achieved notable metrics with the best model, Gradient Boosting Classifier, reaching a precision of 95% and a recall of 86% on the test data set.</li>
+            </ul>
+
+            <h3>TwiX - Social Media App</h3>
+            <p>JavaScript | Express.js | Socket.io | MongoDB | VSCode</p>
+            <ul class="indented">
+                <li>Engineered a social media application mimicking Twitter's core features to create an authentic user experience.</li>
+                <li>Integrated live Twitter feeds using Twitter’s API, enhancing user engagement through real-time content updates.</li>
+                <li>Utilized Socket.io for real-time updates on tweets, notifications, and interactive elements such as retweets and likes.</li>
+                <li>Optimized MongoDB operations, boosting database query performance by ~18%, ensuring swift data handling and response times.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Programming Languages: Java, Python, C, C++, JavaScript, Clojure</li>
+                <li>Frameworks/Libraries: React.js, Node.js, Tensorflow, Scikit-learn, Vue.js, Spring Boot, Express.js, Nasa OpenMCT</li>
+                <li>Developer Tools: Git, Jira, VSCode, Jupyter Notebook, Vim, IntelliJ, Eclipse, PyCharm</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p></p>
+        </div>
+    </footer>
+</body>
+</html>
